@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-image-selector"
+version = "1.0.0"
+description = "A ComfyUI node that intelligently selects between two image inputs based on which ones are bypassed"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "LukeCoulson1", email = ""}
+]
+keywords = ["comfyui", "image", "selector", "conditional", "bypass"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+]
+
+[project.urls]
+Homepage = "https://github.com/LukeCoulson1/Comfyui_ImageSelector"
+Repository = "https://github.com/LukeCoulson1/Comfyui_ImageSelector"
+Issues = "https://github.com/LukeCoulson1/Comfyui_ImageSelector/issues"
+
+[tool.setuptools.packages.find]
+include = ["comfyui_image_selector*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.md", "*.txt", "*.json"]

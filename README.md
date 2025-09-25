@@ -1,5 +1,9 @@
 # ComfyUI Image Selector
 
+![GitHub](https://img.shields.io/github/license/LukeCoulson1/Comfyui_ImageSelector)
+![GitHub stars](https://img.shields.io/github/stars/LukeCoulson1/Comfyui_ImageSelector)
+![GitHub issues](https://img.shields.io/github/issues/LukeCoulson1/Comfyui_ImageSelector)
+
 A custom ComfyUI node that intelligently selects between two image inputs based on which ones are bypassed (disconnected). Perfect for conditional image processing workflows.
 
 ## Features
@@ -17,13 +21,19 @@ A custom ComfyUI node that intelligently selects between two image inputs based 
 
 ## Installation
 
-### Method 1: Git Clone (Recommended)
+### Method 1: ComfyUI Manager (Recommended)
+1. Install [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+2. Open ComfyUI and go to Manager → Install Custom Nodes
+3. Search for "Image Selector" or "LukeCoulson1"
+4. Click Install and restart ComfyUI
+
+### Method 2: Git Clone
 ```bash
 cd ComfyUI/custom_nodes
 git clone https://github.com/LukeCoulson1/Comfyui_ImageSelector.git
 ```
 
-### Method 2: Manual Download
+### Method 3: Manual Download
 1. Download this repository as a ZIP file
 2. Extract the `comfyui_image_selector` folder to your ComfyUI custom nodes directory:
    ```
