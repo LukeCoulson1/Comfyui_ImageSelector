@@ -1,4 +1,4 @@
-# ComfyUI Image Selector
+# ComfyUI Image Bypasser
 
 ![GitHub](https://img.shields.io/github/license/LukeCoulson1/Comfyui_ImageSelector)
 ![GitHub stars](https://img.shields.io/github/stars/LukeCoulson1/Comfyui_ImageSelector)
@@ -8,12 +8,12 @@ A custom ComfyUI node that intelligently selects between two image inputs based 
 
 ## Features
 
-### Basic Image Selector
+### Basic Image Bypasser
 - **Smart Selection**: Automatically outputs the available image when one input is bypassed
 - **Fallback Handling**: Provides a black fallback image when both inputs are bypassed
 - **Priority Control**: Choose which image to prefer when both are connected
 
-### Advanced Image Selector
+### Advanced Image Bypasser
 - **Multiple Selection Modes**: Auto-select, force selection, or priority-based selection
 - **Selection Information**: Outputs a text string explaining which image was selected and why
 - **Custom Fallback Size**: Configure the dimensions of the fallback image
@@ -24,7 +24,7 @@ A custom ComfyUI node that intelligently selects between two image inputs based 
 ### Method 1: ComfyUI Manager (Recommended)
 1. Install [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 2. Open ComfyUI and go to Manager → Install Custom Nodes
-3. Search for "Image Selector" or "Snowshoes311"
+3. Search for "Image Bypasser" or "Snowshoes311"
 4. Click Install and restart ComfyUI
 
 ### Method 2: Git Clone
@@ -46,7 +46,7 @@ git clone https://github.com/LukeCoulson1/Comfyui_ImageSelector.git
 
 ## Node Types
 
-### Image Selector (Basic)
+### Image Bypasser (Basic)
 
 **Inputs:**
 - `image1` (IMAGE, optional): First image input
@@ -64,7 +64,7 @@ git clone https://github.com/LukeCoulson1/Comfyui_ImageSelector.git
 - If both are connected → outputs based on `fallback_mode`
 - If neither is connected → outputs a 512x512 black image
 
-### Image Selector (Advanced)
+### Image Bypasser (Advanced)
 
 **Inputs:**
 - `image1` (IMAGE, optional): First image input
@@ -86,21 +86,21 @@ git clone https://github.com/LukeCoulson1/Comfyui_ImageSelector.git
 
 ### Basic Conditional Processing
 ```
-[Image Generator 1] → [Image Selector] → [Final Output]
+[Image Generator 1] → [Image Bypasser] → [Final Output]
 [Image Generator 2] ↗
 ```
-When you bypass (disconnect) Image Generator 1, the selector automatically switches to Image Generator 2.
+When you bypass (disconnect) Image Generator 1, the bypasser automatically switches to Image Generator 2.
 
 ### A/B Testing Pipeline
 ```
-[Style A] → [Image Selector Advanced] → [Preview]
+[Style A] → [Image Bypasser Advanced] → [Preview]
 [Style B] ↗
 ```
 Use the advanced node with `selection_info` output to see which style is currently active.
 
 ### Fallback Safety Net
 ```
-[Primary Process] → [Image Selector] → [Always Has Output]
+[Primary Process] → [Image Bypasser] → [Always Has Output]
 [Backup Process] ↗
 ```
 Ensures your workflow always produces an image, even if the primary process fails or is bypassed.

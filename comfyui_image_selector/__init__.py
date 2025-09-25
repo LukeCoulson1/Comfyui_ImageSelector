@@ -1,5 +1,5 @@
 """
-ComfyUI Image Selector Node
+ComfyUI Image Bypasser Node
 A custom node that outputs either image1 or image2 based on which one is bypassed.
 """
 

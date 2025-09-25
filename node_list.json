@@ -2,7 +2,7 @@
     "custom_nodes": [
         {
             "author": "Snowshoes311",
-            "title": "ComfyUI Image Selector",
+            "title": "ComfyUI Image Bypasser",
             "id": "comfyui-image-selector",
             "reference": "https://github.com/LukeCoulson1/Comfyui_ImageSelector",
             "files": [
@@ -11,10 +11,10 @@
             "install_type": "git-clone",
             "description": "A custom ComfyUI node that intelligently selects between two image inputs based on which ones are bypassed (disconnected). Perfect for conditional image processing workflows.",
             "pip": [],
-            "nodename_pattern": "Image Selector",
+            "nodename_pattern": "Image Bypasser",
             "tags": [
                 "image",
-                "selector", 
+                "bypasser", 
                 "conditional",
                 "bypass",
                 "utility"

@@ -181,6 +181,6 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageSelector": "Image Selector",
-    "ImageSelectorAdvanced": "Image Selector (Advanced)",
+    "ImageSelector": "Image Bypasser",
+    "ImageSelectorAdvanced": "Image Bypasser (Advanced)",
 }

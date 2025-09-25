@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "comfyui-image-selector"
+name = "comfyui-image-bypasser"
 version = "1.0.0"
 description = "A ComfyUI node that intelligently selects between two image inputs based on which ones are bypassed"
 readme = "README.md"
@@ -11,7 +11,7 @@ license = {text = "MIT"}
 authors = [
     {name = "Snowshoes311", email = ""}
 ]
-keywords = ["comfyui", "image", "selector", "conditional", "bypass"]
+keywords = ["comfyui", "image", "bypasser", "conditional", "bypass"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
