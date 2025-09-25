@@ -24,7 +24,7 @@ A custom ComfyUI node that intelligently selects between two image inputs based 
 ### Method 1: ComfyUI Manager (Recommended)
 1. Install [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 2. Open ComfyUI and go to Manager → Install Custom Nodes
-3. Search for "Image Selector" or "LukeCoulson1"
+3. Search for "Image Selector" or "Snowshoes311"
 4. Click Install and restart ComfyUI
 
 ### Method 2: Git Clone

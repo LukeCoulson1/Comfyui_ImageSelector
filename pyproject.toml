@@ -9,7 +9,7 @@ description = "A ComfyUI node that intelligently selects between two image input
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "LukeCoulson1", email = ""}
+    {name = "Snowshoes311", email = ""}
 ]
 keywords = ["comfyui", "image", "selector", "conditional", "bypass"]
 classifiers = [

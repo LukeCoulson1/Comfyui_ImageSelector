@@ -1,7 +1,7 @@
 {
     "custom_nodes": [
         {
-            "author": "LukeCoulson1",
+            "author": "Snowshoes311",
             "title": "ComfyUI Image Selector",
             "id": "comfyui-image-selector",
             "reference": "https://github.com/LukeCoulson1/Comfyui_ImageSelector",
